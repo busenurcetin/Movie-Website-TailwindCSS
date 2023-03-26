@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Signin Form Template Example</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="login.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+
+<body>
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">Sign up</a></li>
+          <li><a href="#login"  role="tab" data-toggle="tab">Log in</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center"> Sign Up for WATCH </h2>
+            <form id="signup">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label><span class="req " >*</span> </label>
+                    <input type="text" class="form-control" id="first_name" placeholder="First Name" required data-validation-required-message="Please enter your name." >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label><span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Last Name" required data-validation-required-message="Please enter your name." >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label> <span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email" required data-validation-required-message="Please enter your email address." >
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> <span class="req">*</span> </label>
+                <input type="tel" class="form-control" id="phone" placeholder="Your Phone" required data-validation-required-message="Please enter your phone number." >
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> <span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" placeholder="Password" required data-validation-required-message="Please enter your password" >
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block"/>
+                Sign up
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade in" id="login">
+            <h2 class="text-uppercase text-center"> Log in</h2>
+            <form id="login">
+              <div class="form-group">
+                <label> <span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" placeholder="Your E-Mail" required data-validation-required-message="Please enter your email address." >
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> <span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" placeholder="Password" required data-validation-required-message="Please enter your password" >
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block"/>
+                Log in
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container --> 
+</div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- partial -->
+
+
+</body>
+</html>
